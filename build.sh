@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-DOCKER_RUN_IMAGE=nagios
+DOCKER_RUN_IMAGE=dockernagios
 
 docker build -t "${DOCKER_RUN_IMAGE}" .
 
