@@ -13,7 +13,7 @@ NagiosGraph configuration lives in /opt/nagiosgraph/etc
 ### Install
 
 ```sh
-docker pull jasonrivers/nagios:latest
+docker pull ronsalas/dockernagios:latest
 ```
 
 ### Running
