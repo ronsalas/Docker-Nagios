@@ -2,7 +2,7 @@
 
 Docker image for Nagios
 
-Build Status: [![Build Status](https://travis-ci.org/JasonRivers/Docker-Nagios.svg?branch=master)](https://travis-ci.org/JasonRivers/Docker-Nagios)
+Build Status: [![Build Status](https://travis-ci.org/ronsalas/dockernagios.svg?branch=master)](https://travis-ci.org/ronsalas/dockernagios)
 
 Nagios Core 4.4.3 running on Ubuntu 16.04 LTS with NagiosGraph & NRPE
 
@@ -21,7 +21,7 @@ docker pull jasonrivers/nagios:latest
 Run with the example configuration with the following:
 
 ```sh
-docker run --name nagios4 -p 0.0.0.0:8080:80 jasonrivers/nagios:latest
+docker run --name nagios4 -p 0.0.0.0:8080:80 ronsalas/nagios:latest
 ```
 
 alternatively you can use external Nagios configuration & log data with the following:
