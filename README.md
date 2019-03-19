@@ -21,7 +21,7 @@ docker pull ronsalas/dockernagios:latest
 Run with the example configuration with the following:
 
 ```sh
-docker run --name nagios4 -p 0.0.0.0:8080:80 ronsalas/nagios:latest
+docker run --name nagios4 -p 0.0.0.0:8080:80 ronsalas/dockernagios:latest
 ```
 
 alternatively you can use external Nagios configuration & log data with the following:
